@@ -112,7 +112,7 @@ def update_student_score(records):
             break
 
     if (not found):
-        print("Mã sinh viên không tồn tại!!\n")
+        print(f"Không tìm thấy sinh viên mang mã {student_id} trong hệ thống!\n")
 
 def generate_report(records):
     if (len(records) == 0):
